@@ -1,7 +1,46 @@
 *{
     margin: 0;
+    
 }
 /* header section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 30px;
+}
+.nav-title{
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-left: 100px;
+}
+nav ul{
+    display: flex;
+    margin-right: 50px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: #F15B22;
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+   
+    
+}
+span{
+    color: #F15B22;
+}
+
+
 header{
     background-image: url("image/banner/banner2.png");
     width: 100%;
@@ -61,19 +100,22 @@ ul li{
     text-align: center;
     margin-top: 30px ;
 }
+hr{
+    margin: 10px 300px;
+    border: 2px solid #F15B22;
+    
+}
 .main-section-part3{
     display: flex;
     gap: 70px;
     text-align: center;
-    margin: 30px 270px;
+    margin: 50px 300px;
 }
 /* end main section part 3 */
-/* start main section part 4 */
+/* start grident section style */
 .grident-section{
- 
-    
 
-}
+ }
 .main-part4-title{
     color: white;
     margin-bottom: 20px;
@@ -101,7 +143,8 @@ ul li{
     height: 100%;
 }
 
-/* end main section part4 */
+/* end grident section  */
+/* footer section start */
 .footer-section{
     display: flex;
     background-color: black;
@@ -135,5 +178,6 @@ ul li{
     border-radius: 5px;
     margin-bottom: 10px;
 }
+/* footer section end */
 
 
